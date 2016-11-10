@@ -7,7 +7,7 @@ class DisplayMarkup extends Component {
     const userContent = Marked(content, {
       sanitize: true
     });
-    return { __html: Marked(content) };
+    return { __html: Marked(userContent) };
   }
 
   render(){
