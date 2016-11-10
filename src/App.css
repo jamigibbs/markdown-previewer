@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  background-color: #F6F6F6;
+}
+
+*:focus {
+    outline: none;
+}
+
+nav {
+  height: 50px;
+  width: 100%;
+  background-color: #4A4A4A;
+  color: white;
+  font-family: "PT Sans",sans-serif;
+  font-size: 18px;
+  padding: 10px 0 0 20px;
+  margin: 0;
+}
+
+nav a i.fa {
+  float: right;
+  padding: 0 10px 0 0;
+  font-size: 26px;
+}
+
+nav a {
+  color: white;
+}
+
+nav a:hover {
+  color: #F1E05A;
+}
+
+.textbox {
+  height: 100vh;
+  font-family: "PT Sans",sans-serif;
+  font-size: 18px;
+  line-height: 1.65;
+  color: #5a5a5a;
+}
+
+textarea {
+  height: 100%;
+  width: 100%;
+  border: none;
+  background-color: #F6F6F6;
+  padding: 2em 1em;
+}
+
+.markup-display{
+  height: 100%;
+  padding: 1em 4em;
+  /*margin: 1em 0;*/
+  background-color: #FCFCFC;
+  /*border: 1px solid #e2e2e2;
+  border-radius: 6px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.225);*/
+}
